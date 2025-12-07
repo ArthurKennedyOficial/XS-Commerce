@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', function() {
     whatsappButtons.forEach(button => {
         button.addEventListener('click', function() {
             // Substitua o número de telefone pelo seu número do WhatsApp
-            const phoneNumber = '5511999999999'; // Exemplo: 55 (11) 99999-9999
+            const phoneNumber = '5537996647419'; // Exemplo: 55 (11) 99999-9999
             const message = 'Olá! Gostaria de agendar uma consultoria gratuita com a XS Commerce.';
             const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
             window.open(whatsappURL, '_blank');
@@ -96,4 +96,5 @@ document.addEventListener('DOMContentLoaded', function() {
     // Observar elementos para animação
     const elementosParaAnimar = document.querySelectorAll('.servico-card, .passo');
     elementosParaAnimar.forEach(el => observer.observe(el));
+
 });
